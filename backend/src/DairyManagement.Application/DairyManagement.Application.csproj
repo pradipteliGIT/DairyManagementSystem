@@ -4,6 +4,17 @@
     <ProjectReference Include="..\DairyManagement.Domain\DairyManagement.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Features\Authentication\" />
+    <Folder Include="Features\Company\" />
+    <Folder Include="Features\MilkCollection\" />
+    <Folder Include="Features\MilkSales\" />
+    <Folder Include="Features\Inventory\" />
+    <Folder Include="Features\Reports\" />
+    <Folder Include="Features\Suppliers\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
